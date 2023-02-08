@@ -2,7 +2,6 @@ import PropTypes from "prop-types";
 import { StatWraper,Title,StatList,StatItem,StatName,StatAmnt } from "./Statistics.styled";
 export const Statistics = ({ title, stats }) => {
   return (
-    <>
       <StatWraper>
         {(title) && (<Title>{title}</Title>)}
         <StatList>
@@ -16,7 +15,6 @@ export const Statistics = ({ title, stats }) => {
           })}
         </StatList>
       </StatWraper>
-    </>
   );
 };
 
