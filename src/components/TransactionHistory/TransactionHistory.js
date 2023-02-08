@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import { TransactionsWraper,Table,HeaderEl,BodyRow,BodyCell } from "./TransactionHistory.styled";
+import { Table,HeaderEl,BodyRow,BodyCell } from "./TransactionHistory.styled";
 export const TransactionHistory = ({items}) => {
     return (<Table>
     <thead>
